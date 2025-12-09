@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+table {
+    width: 60rem;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    width: fit-content;
+    font-style: italic;
+    border: 1px solid #000f00;
+    padding: 5px;
+}
+
+.time {
+    background-color: aliceblue;
+}
+
+.monday {
+    background-color: rgb(212, 167, 255);
+}
+
+.tuesday {
+    background-color: rgb(146, 240, 146);
+}
+
+.wednesday {
+    background-color: rgb(121, 164, 252);
+}
+
+.thursday {
+    background-color: rgb(249, 249, 99);
+}
+
+.friday {
+    background-color: rgb(245, 94, 94);
+}
