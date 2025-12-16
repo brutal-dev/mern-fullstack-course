@@ -4,17 +4,14 @@
   box-sizing: border-box;
 }
 
-html {
-  min-width: 100dvw;
-  min-height: 100dvh;
-}
-
 body {
+  width: 100dvw;
+  height: 100dvh;
   background-color: rgb(107, 120, 88);
 }
 
 nav {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .navbar,
@@ -49,32 +46,36 @@ nav {
   border-bottom: 4px solid #fff;
 }
 
-section {
+.main-content {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
-  margin: 80px auto;
+.gradient-box {
+  margin: 0 auto;
   width: 200px;
   height: 200px;
   background: #000000;
   background: linear-gradient(
-    210deg,
+    180deg,
     rgba(0, 0, 0, 1) 30%,
     rgba(0, 56, 0, 1) 100%
   );
   border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 480px) {
+  .navbar-links {
+    width: 300px;
+  }
   .navbar-links a {
-    font-size: small;
+    font-size: 0.8rem;
     margin: 0;
   }
-
-  section {
+  .main-content {
     flex-wrap: wrap;
   }
 }
